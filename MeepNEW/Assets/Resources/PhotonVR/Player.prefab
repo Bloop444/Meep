@@ -57,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: -6289222321413168340, guid: 2153e77768b4de84aa372b72ee26cced, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -101,8 +101,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Player Name
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2153e77768b4de84aa372b72ee26cced, type: 2}
+  m_sharedMaterial: {fileID: -6289222321413168340, guid: 2153e77768b4de84aa372b72ee26cced, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -132,7 +132,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -892,7 +892,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 67aca31b40801f1418f672e25d5d4f2b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 376e8304d3bd2e947906443968917890, type: 2}
+      objectReference: {fileID: 2100000, guid: c9c30daf38af8e449a87cd8d138a71ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 67aca31b40801f1418f672e25d5d4f2b, type: 3}
       propertyPath: m_Name
       value: VRHand
@@ -979,7 +979,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 0905d224692d0f543a9fad854bc45def, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 376e8304d3bd2e947906443968917890, type: 2}
+      objectReference: {fileID: 2100000, guid: c9c30daf38af8e449a87cd8d138a71ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 0905d224692d0f543a9fad854bc45def, type: 3}
       propertyPath: m_Name
       value: VRBody
@@ -1066,7 +1066,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 67aca31b40801f1418f672e25d5d4f2b, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 376e8304d3bd2e947906443968917890, type: 2}
+      objectReference: {fileID: 2100000, guid: c9c30daf38af8e449a87cd8d138a71ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 67aca31b40801f1418f672e25d5d4f2b, type: 3}
       propertyPath: m_Name
       value: VRHand
@@ -1153,7 +1153,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: ad30dc9b650bf1443a0b7de9dbb247c2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 376e8304d3bd2e947906443968917890, type: 2}
+      objectReference: {fileID: 2100000, guid: c9c30daf38af8e449a87cd8d138a71ee, type: 2}
     - target: {fileID: 919132149155446097, guid: ad30dc9b650bf1443a0b7de9dbb247c2, type: 3}
       propertyPath: m_Name
       value: VRHead
