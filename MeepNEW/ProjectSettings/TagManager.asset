@@ -7,13 +7,11 @@ TagManager:
   - Bullet
   - Handtag
   - HandTag
-  - Wood
-  - Ball
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - NonWalkable
+  - 
   - Water
   - UI
   - 
