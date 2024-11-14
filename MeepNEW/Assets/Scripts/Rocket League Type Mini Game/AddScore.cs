@@ -27,12 +27,12 @@ public class AddScore : MonoBehaviour
         {
             if(IsBlue == false)
             {
-                ManagerScript.RedScore =+ AmountToAdd;
+                ManagerScript.RedScore += AmountToAdd;
                 ManagerScript.ResetPosition();
             }
             else
             {
-                ManagerScript.BlueScore =+ AmountToAdd;
+                ManagerScript.BlueScore += AmountToAdd;
                 ManagerScript.ResetPosition();
             }
         }
