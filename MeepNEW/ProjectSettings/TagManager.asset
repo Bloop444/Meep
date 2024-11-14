@@ -9,6 +9,7 @@ TagManager:
   - HandTag
   - Wood
   - Ball
+  - UI
   layers:
   - Default
   - TransparentFX
