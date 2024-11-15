@@ -7,7 +7,7 @@ using TMPro;
 public class NameScript : MonoBehaviour
 {
     public string NameVar;
-    public TextMeshPro NameText;
+    public TextMeshProUGUI NameText;
     private void Update()
     {
         if (NameVar.Length > 12)

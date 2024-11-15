@@ -5,14 +5,10 @@ using UnityEngine;
 public class AddLetter : MonoBehaviour
 {
     public NameScript nameScript;
-    public string Handtag;
     public string Letter;
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if(other.transform.tag == Handtag) 
-        {
+    public void StartAddLetter()
+    { 
             nameScript.NameVar += Letter;
-        }
     }
 }
