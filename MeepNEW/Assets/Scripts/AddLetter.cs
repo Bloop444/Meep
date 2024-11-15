@@ -9,6 +9,6 @@ public class AddLetter : MonoBehaviour
 
     public void StartAddLetter()
     { 
-            nameScript.NameVar += Letter;
+        nameScript.NameVar += Letter;
     }
 }
