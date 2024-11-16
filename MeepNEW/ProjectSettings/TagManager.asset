@@ -10,6 +10,7 @@ TagManager:
   - Wood
   - Ball
   - UI
+  - Damaged
   layers:
   - Default
   - TransparentFX
