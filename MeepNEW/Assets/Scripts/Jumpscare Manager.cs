@@ -7,7 +7,6 @@ using easyInputs;
 public class JumpscareManager : MonoBehaviour
 {
     public EasyHand Hand = EasyHand.RightHand;
-    public string ColliderTag;
     public float JumpscareGunDuration = 3f;
     public GameObject JumpscareObject;
     public AudioSource JumpscareSound;
