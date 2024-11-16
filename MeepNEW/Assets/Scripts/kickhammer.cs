@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
-using UnityEditor;
 
 public class kickhammer : MonoBehaviour
 {
@@ -16,9 +15,6 @@ public class kickhammer : MonoBehaviour
         }
         else
         {
-#if UNITY_EDITOR
-            EditorApplication.ExitPlaymode();
-#endif
             Application.Quit();
         }
     }
