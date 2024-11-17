@@ -26,11 +26,11 @@ public class SetColorVar : MonoBehaviour
         {
             ManagerScript.Red = NumberToSet;
         }
-        else if(Green == true)
+        if(Green == true)
         {
             ManagerScript.Green = NumberToSet;
         }
-        else if(Blue == true)
+        if(Blue == true)
         {
             ManagerScript.Blue = NumberToSet;
         }

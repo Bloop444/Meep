@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Spawn.unity
     guid: 4ddaef56c7ca121489d12a3dd38f552a
+  - enabled: 1
+    path: Assets/Scenes/Rocket League.unity
+    guid: 52055c47192984548aa0f1a878126cf5
+  - enabled: 1
+    path: Assets/Scenes/Arena.unity
+    guid: ff491c15933569a4ba1782cb48fd1caf
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4a8856660e871fa488669cb2a3744cca, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b391076f0fa1a904f9952781c07c566b, type: 2}
