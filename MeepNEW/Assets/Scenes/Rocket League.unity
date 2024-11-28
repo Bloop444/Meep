@@ -287,10 +287,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9746c355131548b6b11a86b6ed16ff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ManagerScript: {fileID: 541255050}
-  BallTag: Ball
-  AmountToAdd: 1
-  IsBlue: 0
 --- !u!65 &173257050
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -646,11 +642,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df0da8255aae64fb891991639d2697d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreDisplay: {fileID: 238249617}
-  RedScore: 0
-  BlueScore: 0
-  BallTransform: {fileID: 974873929}
-  RespawnPoint: {fileID: 760590525}
 --- !u!4 &541255051
 Transform:
   m_ObjectHideFlags: 0
@@ -985,6 +976,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gorilla Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 430285557273465589, guid: ce5c2251d70caf148bbad13bb99ebf54, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 430285557273465591, guid: ce5c2251d70caf148bbad13bb99ebf54, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30.29
@@ -1283,8 +1278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7bbe2e9f2b734744870912c18df9736, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HandTag: HandTag
-  ForceMultiplier: 10
 --- !u!135 &974873932
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1521,10 +1514,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9746c355131548b6b11a86b6ed16ff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ManagerScript: {fileID: 541255050}
-  BallTag: Ball
-  AmountToAdd: 1
-  IsBlue: 1
 --- !u!65 &1221177386
 BoxCollider:
   m_ObjectHideFlags: 0
