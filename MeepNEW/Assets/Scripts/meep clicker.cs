@@ -10,12 +10,21 @@ public class CookieClickerUpdate : MonoBehaviour
     public int Cookies;
     public TextMeshPro CookieText;
 
+    private const string CookiesKey = "Cookies";
+
+    private void Start()
+    {
+        Cookies = PlayerPrefs.GetInt(CookiesKey, 0);
+        UpdateCookieText();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(FingerTag))
         {
             Cookies++;
             UpdateCookieText();
+            SaveCookies();
         }
     }
 
@@ -27,10 +36,22 @@ public class CookieClickerUpdate : MonoBehaviour
         }
     }
 
+    private void SaveCookies()
+    {
+        PlayerPrefs.SetInt(CookiesKey, Cookies);
+        PlayerPrefs.Save();
+    }
+
     public void TestPressButton()
     {
         Cookies++;
         UpdateCookieText();
+        SaveCookies();
+    }
+
+    private void OnApplicationQuit()
+    {
+        SaveCookies();
     }
 }
 
