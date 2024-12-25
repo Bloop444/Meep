@@ -39,4 +39,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Rocket League.unity
     guid: 464d5da3012e415499ad0e70c2f6ec73
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4a8856660e871fa488669cb2a3744cca, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 670e245572f57fe49b6e8a631e313982, type: 2}
