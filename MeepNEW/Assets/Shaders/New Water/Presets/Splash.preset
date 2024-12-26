@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Splash
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 631e45a721de84d67a94afb98e50f97c,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: splashPrefab
+    value: 
+    objectReference: {fileID: 1818329095783294072, guid: 1477a54329f7849a8a210517a594a427,
+      type: 3}
+  - target: {fileID: 0}
+    propertyPath: splashSound
+    value: 
+    objectReference: {fileID: 8300000, guid: 5cc58fc88ae1546dcaff16b0af507745, type: 3}
+  - target: {fileID: 0}
+    propertyPath: leftControllerName
+    value: LeftHand Controller
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightControllerName
+    value: RightHand Controller
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: leftHand
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rightHand
+    value: 
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
