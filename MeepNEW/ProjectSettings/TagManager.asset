@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Wood
   - HandTag
+  - GoalRed
+  - GoalBlue
+  - BlueGoal
+  - RedGoal
   layers:
   - Default
   - TransparentFX
@@ -30,7 +34,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - BeachBall
   - 
   - 
   - 
