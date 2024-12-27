@@ -54,6 +54,7 @@ MonoBehaviour:
   - StopFlaming
   - HighFiveButLol
   - KillPlayer
+  - GoalScoredRPC
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 0
